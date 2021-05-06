@@ -1,0 +1,41 @@
+// Import the framework
+@import "node_modules/vanilla-framework/scss/vanilla";
+
+// Include all of Vanilla Framework
+@include vanilla;
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 5px solid #900c3f;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.flex-start {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.flex-end {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+.header-text {
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.block {
+  flex-basis: 100%;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.uppercase {
+  text-transform: capitalize;
+}

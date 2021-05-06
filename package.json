@@ -1,0 +1,18 @@
+{
+  "name": "canonical_test",
+  "version": "1.0.0",
+  "description": "canonical test",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "vanilla-framework": "^2.29.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path node_modules src --output dist",
+    "watch-css": "npm run build-css && node-sass --watch src/*.scss --output dist"
+  },
+  "author": "Joe Bateman",
+  "license": "ISC"
+}
